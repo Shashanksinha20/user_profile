@@ -1,0 +1,107 @@
+    .imgPreview {
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .imgPreview input[type="file"] {
+    display: none;
+  }
+  
+  .imgPreview .customFileUpload {
+    color: #55d6d6;
+    font-size: 22px;
+    font-weight: 500;
+    /* padding: 6px 12px; */
+    cursor: pointer;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    background: none;
+    margin: 10px 0 0 0;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .imgPreview{
+      width: 10vw;
+      height: 15vh;
+      font-size: 12px;
+    }
+    .textDisplay{
+      display: none;
+    }
+    label{
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 1189px) {
+    .imgPreview{
+      width: 10vw;
+      height: 20vh;
+      font-size: 12px;
+    }
+    label{
+      font-size: 10px;
+    }
+
+    .textDisplay{
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 732px) {
+    .imgPreview{
+      width: 10vw;
+      height: 15vh;
+      font-size: 12px;
+    }
+    label{
+      font-size: 8px;
+    }
+
+    .textDisplay{
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .imgPreview{
+      width: 10vw;
+      height: 15vh;
+      font-size: 12px;
+    }
+    label{
+      font-size: 10px;
+    }
+
+    .textDisplay{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .imgPreview{
+      min-width: 10vw;
+      height: 12vh;
+      font-size: 12px;
+    }
+    label{
+      font-size: 5px;
+    }
+
+    .textDisplay{
+      display: none;
+    }
+  }
